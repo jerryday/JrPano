@@ -1,0 +1,7 @@
+Debug
+ipch
+*.log
+*.pdb
+*.tlog
+*.pch
+*.obj
