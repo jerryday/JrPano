@@ -6,3 +6,6 @@ ipch
 *.pch
 *.obj
 JrPano.sdf
+*.opensdf
+*.suo
+*.user
