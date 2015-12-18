@@ -100,9 +100,9 @@ void Pipeline::FindMatchesAndHomos() {
         }
         num_inliers_[i] = num_inlier;
 
-        if (num_inliers_[i] / (8 + 0.3 * matches_[i].size()) < 0.8) {
-            throw JrUnmatchedPairs("Error: Can't match between [" + imgpaths_[i] + ", " + imgpaths_[i + 1] + "]");
-        }
+        //if (num_inliers_[i] / (8 + 0.3 * matches_[i].size()) < 0.8) {
+        //    throw JrUnmatchedPairs("Error: Can't match between [" + imgpaths_[i] + ", " + imgpaths_[i + 1] + "]");
+        //}
     }
 }
 
